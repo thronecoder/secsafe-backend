@@ -1,4 +1,4 @@
-module gin
+module github.com/thronecoder/secsafe-backend
 
 go 1.24.5
 

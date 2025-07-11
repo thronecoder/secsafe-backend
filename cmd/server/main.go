@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"gin/internal/common"
+
+	"github.com/thronecoder/secsafe-backend/internal/common"
 
 	"github.com/gin-gonic/gin"
 )
