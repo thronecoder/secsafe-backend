@@ -1,0 +1,30 @@
+basePath: /
+host: localhost:8080
+info:
+  contact:
+    email: johnkiribata12@gmail.com
+    name: John Kiribata
+    url: https://github.com/thronecoder/secsafe-backend
+  description: This is the API documentation for secSafe
+  termsOfService: http://swagger.io/terms/
+  title: secSafe API
+  version: "1.0"
+paths:
+  /ping:
+    get:
+      consumes:
+      - application/json
+      description: Check if server is alive
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Ping the server
+      tags:
+      - Health
+swagger: "2.0"
