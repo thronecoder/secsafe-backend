@@ -1,0 +1,47 @@
+# ========================================
+# Go build artifacts
+# ========================================
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.test
+*.log
+
+# ========================================
+# Dependency directories
+# ========================================
+vendor/
+
+# ========================================
+# Go module files (if you want to keep clean)
+# go.sum can be committed or ignored based on your policy
+# ========================================
+# go.sum
+
+# ========================================
+# IDE / Editor files
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# ========================================
+# Env / Secrets
+# ========================================
+.env
+.env.*
+
+# ========================================
+# Swagger generated docs (optional)
+# If you always regenerate them with `swag init`, you can ignore:
+# ========================================
+api/docs/*
+
+# But keep this if you want to keep the folder (not required)
+!api/docs/.gitkeep
